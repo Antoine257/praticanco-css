@@ -23,7 +23,8 @@ h5,
 .formulario span,
 .perguntas-frequentes h2,
 .perguntas-frequentes h2,
-.teoria-resposta>.left h4 {
+.teoria-resposta>.left h4,
+.ciclo-implantacao>.box>.txt-top h6 {
     font-family: Catamaran;
 }
 
@@ -273,7 +274,7 @@ header>.secundario img {
 }
 
 
-/*section3*/
+/*section4,5.6,7*/
 
 .teoria-resposta {
     display: flex;
@@ -299,6 +300,57 @@ header>.secundario img {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+
+/*section08*/
+
+.ciclo-implantacao {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.ciclo-implantacao>.box>.txt-top h5 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    color: rgb(102, 102, 102);
+}
+
+.ciclo-implantacao>.box>.txt-top h6 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    text-size-adjust: 100%;
+    color: rgb(227, 5, 19);
+    margin-bottom: 20px;
+}
+
+.ciclo-implantacao>.box>.txt-top p {
+    font-size: 21px;
+    line-height: 30.6px;
+    text-size-adjust: 100%;
+    color: rgb(102, 102, 102);
+}
+
+.ciclo-implantacao>.box>.txt-top {
+    margin-bottom: 70px;
+}
+
+.ciclo-implantacao>.box {
+    text-align: center;
+}
+
+.ciclo-implantacao>.box>.escada img {
+    width: 1000px;
+}
+
+
+/* fim section08*/
 
 
 /* 
@@ -810,7 +862,13 @@ header>.secundario img {
         width: 100%;
         margin-top: 15px;
     }
+    .ciclo-implantacao>.box>.escada img {
+        width: 400px;
+    }
 }
 
 
 /*fim media query para o banner*/
+
+
+/*fim media query section 08*/
