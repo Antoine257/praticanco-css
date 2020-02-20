@@ -1,3 +1,5 @@
+/* SETUP */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +8,8 @@
     font-weight: normal;
     box-sizing: border-box;
     border: none;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
-}
-
-body {
-    font-family: 'roboto';
 }
 
 span,
@@ -25,7 +23,7 @@ h5,
 .perguntas-frequentes h2,
 .teoria-resposta>.left h4,
 .ciclo-implantacao>.box>.txt-top h6 {
-    font-family: Catamaran;
+    font-family: 'Catamaran', sans-serif;
 }
 
 p {
@@ -40,7 +38,10 @@ p {
 }
 
 
-/*=================Header================*/
+/* SETUP */
+
+
+/* HEADER */
 
 header {
     position: fixed;
@@ -106,7 +107,6 @@ header>.secundario img {
     color: rgb(44, 42, 42);
     margin: 10px;
     font-weight: 500;
-    display: none;
 }
 
 .navigacao li a:hover {
@@ -243,6 +243,16 @@ header>.secundario img {
 }
 
 
+/**/
+
+.video source {
+    display: none;
+}
+
+
+/**/
+
+
 /* 
 .area-servico {
     display: flex;
@@ -274,7 +284,13 @@ header>.secundario img {
 }
 
 
-/*section4,5.6,7*/
+/********************************************/
+
+
+/*   SESSÃO TEORIA                          */
+
+
+/********************************************/
 
 .teoria-resposta {
     display: flex;
@@ -302,7 +318,13 @@ header>.secundario img {
 }
 
 
-/*section08*/
+/********************************************/
+
+
+/*   SESSÃO CICLO                           */
+
+
+/********************************************/
 
 .ciclo-implantacao {
     position: relative;
