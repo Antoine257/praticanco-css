@@ -243,16 +243,6 @@ header>.secundario img {
 }
 
 
-/**/
-
-.video source {
-    display: none;
-}
-
-
-/**/
-
-
 /* 
 .area-servico {
     display: flex;
@@ -532,6 +522,35 @@ header>.secundario img {
     line-height: 30px;
     text-size-adjust: 100%;
 }
+/*section 09*/
+.como-funciona-avalia>.video{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: 20px;
+
+}
+/*fim section 90*/
+
+/*section10*/
+
+.intituções {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 60px;
+    padding: 60px;
+    background-color: #ededed;
+}
+
+.intituções>.logo-box {
+    width: 70%;
+}
+
+
+/*fim section10*/
 
 
 /*
@@ -557,7 +576,7 @@ header>.secundario img {
 }*/
 
 
-/*section 10*/
+/*section 12*/
 
 .perguntas-frequentes {
     position: relative;
@@ -606,8 +625,42 @@ header>.secundario img {
     margin-bottom: 20px;
 }
 
+/*======================section 11============================================*/
+.depoimento{
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color:#ededed;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.depoimento>.txt-container h3{
+    color: #e30513;
+    font-size: 36px;
+    font-weight: 700;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 10px;
+}
 
-/*section 11*/
+.depoimento>.txt-container h5{
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+    font-weight: 400;
+}
+
+.depoimento>.img-box img{
+     width: 250px;
+     margin-right:10px;
+     
+}
+
+
+
+/*======================fim section 11============================================*/
+
+
+/*==============================================================================================================*/
 
 .comece-transformar {
     display: flex;
@@ -668,7 +721,7 @@ header>.secundario img {
 }
 
 
-/*fim section 11*/
+/*=====================================================================================================================*/
 
 
 /*=============================rodapé============================*/
@@ -689,6 +742,7 @@ header>.secundario img {
     display: flex;
     width: 70%;
 }
+
 
 
 /*====================         REGRAS PARA UTILIZAR DEPOIS     ===============================*/
@@ -889,8 +943,18 @@ header>.secundario img {
     }
 }
 
+@media(max-width:770px){   
+.navigacao{display: none;
+
+}
+ }
+
+
 
 /*fim media query para o banner*/
 
 
-/*fim media query section 08*/
+/*oferta-ies========section02*/
+
+
+/*oferta-ies========section02*/
